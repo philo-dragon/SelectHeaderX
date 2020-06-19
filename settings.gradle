@@ -1,0 +1,3 @@
+rootProject.name='selectHeaderX'
+include ':app'
+include ':library'
