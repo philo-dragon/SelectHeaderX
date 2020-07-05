@@ -34,3 +34,22 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+////////////// maven仓库推送 //////////////
+
+// 发布maven配置
+/*apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.groupId = 'com.kevin'
+            pom.artifactId = "common"
+            pom.version = "1.1"
+            pom.packaging = 'aar'
+            repository(url: uri("${rootProject.projectDir}/repo"))
+        }
+    }
+}
+
+implementation 'com.kevin:common:1.1'*/
