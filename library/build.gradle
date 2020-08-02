@@ -38,18 +38,16 @@ dependencies {
 ////////////// maven仓库推送 //////////////
 
 // 发布maven配置
-/*apply plugin: 'maven'
+apply plugin: 'maven'
 
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.groupId = 'com.kevin'
-            pom.artifactId = "common"
-            pom.version = "1.1"
+            pom.groupId = 'com.pfldev.library.selectheader'
+            pom.artifactId = "selectheader"
+            pom.version = "1.0.0"
             pom.packaging = 'aar'
-            repository(url: uri("${rootProject.projectDir}/repo"))
+            repository(url: uri("/Users/panfeilong/Android/maven/repos")) // 配置本地仓库路径，项目根目录下的repository目录中
         }
     }
 }
-
-implementation 'com.kevin:common:1.1'*/
